@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -AF1 | sed -e 's/\(.*\)/\1,/' | tr -d '\n' | sed -e 's/,$/\n/'
